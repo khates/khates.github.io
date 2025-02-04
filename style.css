@@ -256,7 +256,7 @@ h3 {
 
 
 .toolkit {
-    height: 90%; 
+    height: 80vh; 
     padding: 40px 5%;
     background-image: url('bg-2.png');
     background-color: black;
@@ -310,18 +310,61 @@ h3 {
 
 #projectPage {
     position: relative;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background-image: url('bg-3.png');
     background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
     display: flex;
     padding: 0 5%;
     text-align: justify;
     z-index: 11;
 }
+.project-card {
+    background: transparent;
+    border: 1px solid #6b9adf;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.project-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.project-card:hover img {
+    opacity: 0.8;
+}
+
+/* Ensure proper spacing */
+.row {
+    margin-bottom: 20px;
+}
+
 
 .card {
     background: transparent; 
@@ -526,3 +569,4 @@ ul {
   font-size: 14px;
   color: #ffffff;
 }
+

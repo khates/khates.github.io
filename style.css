@@ -256,7 +256,7 @@ h3 {
 
 
 .toolkit {
-    height: 80vh; 
+   /* height: 80vh; */
     padding: 40px 5%;
     background-image: url('bg-2.png');
     background-color: black;
@@ -310,7 +310,7 @@ h3 {
 
 #projectPage {
     position: relative;
-    height: 100vh;
+   /* height: 100vh;*/
     overflow: hidden;
     background-image: url('bg-3.png');
     background-color: black;
@@ -360,7 +360,6 @@ h3 {
     opacity: 0.8;
 }
 
-/* Ensure proper spacing */
 .row {
     margin-bottom: 20px;
 }

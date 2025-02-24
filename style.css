@@ -4,7 +4,6 @@ body {
     z-index: 200;
 }
 
-
 #landingpage {
     position: relative;
     contain: layout paint;
@@ -254,11 +253,34 @@ h3 {
     z-index: 11;
 }
 
-
-.toolkit {
-   /* height: 80vh; */
+#about-me{
+    position: relative;
     padding: 40px 5%;
     background-image: url('bg-2.png');
+    height: 80vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 7, 12);
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+
+}
+#about-me a {
+    color: #cbe7ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#about-me a:hover {
+    color: #a0d2ff; 
+}
+
+.toolkit {
+   height: 90vh; 
+    padding: 40px 5%;
+    background-image: url('bg-3.png');
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -266,6 +288,7 @@ h3 {
     color: white;
     z-index: 10;
 }
+
 
 .blockquote-footer {
     color: #ffffff;

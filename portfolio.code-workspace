@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../dimpolssk.github.io/docs/disneyapi"
+		},
+		{
+			"path": "../../A05"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "khates.github.io"
+	}
+}

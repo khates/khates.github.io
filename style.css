@@ -277,6 +277,17 @@ h3 {
     color: #a0d2ff; 
 }
 
+/* Hide elements initially */
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;}
+
+/* When elements are visible */
+.animate.active {
+    opacity: 1;
+    transform: translateY(0);}
+
 .toolkit {
    height: 90vh; 
     padding: 40px 5%;
@@ -289,6 +300,18 @@ h3 {
     z-index: 10;
 }
 
+.carousel-item {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: none !important;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
 
 .blockquote-footer {
     color: #ffffff;

@@ -267,6 +267,7 @@ h3 {
     padding: 0 5%;
 
 }
+  
 #about-me a {
     color: #cbe7ff;
     font-weight: bold;
@@ -289,7 +290,7 @@ h3 {
     transform: translateY(0);}
 
 .toolkit {
-   height: 90vh; 
+   height: 100vh; 
     padding: 40px 5%;
     background-image: url('bg-3.png');
     background-color: black;
